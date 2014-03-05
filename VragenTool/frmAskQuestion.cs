@@ -78,6 +78,7 @@ namespace VragenTool
                     tryAgain = true;
                 }
                 txtAntwoord.Text = "";
+                txtAntwoord.Focus();
                 toolStripAmountWrong.Text = totalWrong.ToString();
             }
         }
